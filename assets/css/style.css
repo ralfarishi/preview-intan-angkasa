@@ -1268,6 +1268,25 @@ a:hover {
 	background-position: 50%;
 }
 
+.bg-image img {
+	height: 250px;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.bg-image img {
+		height: 300px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1150px) {
+	.bg-image img {
+		height: 300px;
+		width: 100%;
+	}
+}
+
 /*======================================
 //--//-->   PROPERTY - CARD-A
 ======================================*/
