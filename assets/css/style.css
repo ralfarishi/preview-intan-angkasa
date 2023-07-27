@@ -990,6 +990,9 @@ a:hover {
 
 .intro .intro-item {
 	padding-top: 2rem;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .intro .carousel-item-a {
