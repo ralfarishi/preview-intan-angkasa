@@ -136,6 +136,23 @@ a:hover {
 	color: #555555;
 }
 
+.content-list-custom li {
+	font-size: 15px;
+}
+
+.content-list-custom {
+	list-style: none;
+	color: #ddd;
+	display: grid;
+	grid-template-columns: repeat(
+		2,
+		1fr
+	); /* Membagi menjadi dua kolom dengan ukuran sama */
+	grid-gap: 8px; /* Jarak antar elemen li */
+	padding: 0;
+	column-gap: 50px;
+}
+
 .no-margin {
 	margin: 0;
 }
@@ -1195,7 +1212,7 @@ a:hover {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	width: 100%;
-	height: 450px;
+	height: auto;
 }
 
 .card-box-a .img-a,
@@ -1355,6 +1372,15 @@ a:hover {
 	color: #ffffff;
 	margin-bottom: 0;
 	padding-bottom: 0.7rem;
+}
+
+.custom-header-a {
+	padding: 0 1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.419);
 }
 
 @media (min-width: 768px) {
