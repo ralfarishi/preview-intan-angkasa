@@ -505,7 +505,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-	background: #4bd680;
+	background: #9a0606;
 	color: #fff;
 }
 
@@ -1856,7 +1856,7 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-	background-color: #e20707;
+	background-color: #e20707c6;
 	opacity: 0.9;
 }
 
