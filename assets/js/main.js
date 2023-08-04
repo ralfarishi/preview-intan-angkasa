@@ -176,9 +176,9 @@
 	});
 
 	/**
-	 * News carousel
+	 * Crew carousel
 	 */
-	new Swiper("#news-carousel", {
+	new Swiper("#crew-carousel", {
 		speed: 600,
 		loop: true,
 		autoplay: {
@@ -187,7 +187,7 @@
 		},
 		slidesPerView: "auto",
 		pagination: {
-			el: ".news-carousel-pagination",
+			el: ".crew-carousel-pagination",
 			type: "bullets",
 			clickable: true,
 		},
