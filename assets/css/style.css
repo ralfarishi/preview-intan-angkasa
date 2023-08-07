@@ -1909,7 +1909,7 @@ a:hover {
 	}
 }
 
-.sinse-box {
+.since-box {
 	background-color: #e20707;
 	padding: 1rem 2rem;
 	position: absolute;
@@ -1918,74 +1918,75 @@ a:hover {
 }
 
 @media (min-width: 576px) {
-	.sinse-box {
+	.since-box {
 		padding: 1.5rem 2.5rem;
 		bottom: 20px;
 	}
 }
 
 @media (min-width: 768px) {
-	.sinse-box {
+	.since-box {
 		padding: 1.5rem 3rem;
 	}
 }
 
 @media (min-width: 992px) {
-	.sinse-box {
+	.since-box {
 		padding: 3rem 4.5rem;
 	}
 }
 
-.sinse-box .sinse-title {
+.since-box .since-title {
 	font-weight: 700;
 	letter-spacing: 0.043em;
 	font-size: 1rem;
+	color: #181818;
 }
 
 @media (min-width: 576px) {
-	.sinse-box .sinse-title {
+	.since-box .since-title {
 		font-size: 1.3rem;
 	}
 }
 
 @media (min-width: 768px) {
-	.sinse-box .sinse-title {
+	.since-box .since-title {
 		font-size: 1.8rem;
 	}
 }
 
 @media (min-width: 992px) {
-	.sinse-box .sinse-title {
+	.since-box .since-title {
 		font-size: 2.2rem;
 	}
 }
 
-.sinse-box .sinse-title span {
+.since-box .since-title span {
 	position: absolute;
 }
 
-.sinse-box .sinse-title span:after {
+.since-box .since-title span:after {
 	content: " ";
 	width: 35px;
 	height: 2px;
-	background-color: #000000;
+	background-color: #181818;
 	position: absolute;
 	bottom: -15px;
 }
 
-.sinse-box p {
+.since-box p {
 	margin-bottom: 0;
 	font-size: 0.7rem;
 }
 
 @media (min-width: 576px) {
-	.sinse-box p {
+	.since-box p {
 		font-size: 0.8rem;
 	}
 }
 
 @media (min-width: 576px) {
-	.sinse-box p {
+	.since-box p {
 		font-size: 1rem;
 	}
 }
