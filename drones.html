@@ -43,123 +43,6 @@
 	</head>
 
 	<body>
-		<!-- ======= Property Search Section ======= -->
-		<div class="click-closed"></div>
-		<!--/ Form Search Star /-->
-		<div class="box-collapse">
-			<div class="title-box-d">
-				<h3 class="title-d">Search Property</h3>
-			</div>
-			<span class="close-box-collapse right-boxed bi bi-x"></span>
-			<div class="box-collapse-wrap form">
-				<form class="form-a">
-					<div class="row">
-						<div class="col-md-12 mb-2">
-							<div class="form-group">
-								<label class="pb-2" for="Type">Keyword</label>
-								<input
-									type="text"
-									class="form-control form-control-lg form-control-a"
-									placeholder="Keyword"
-								/>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="Type">Type</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="Type"
-								>
-									<option>All Type</option>
-									<option>For Rent</option>
-									<option>For Sale</option>
-									<option>Open House</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="city">City</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="city"
-								>
-									<option>All City</option>
-									<option>Alabama</option>
-									<option>Arizona</option>
-									<option>California</option>
-									<option>Colorado</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="bedrooms">Bedrooms</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="bedrooms"
-								>
-									<option>Any</option>
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="garages">Garages</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="garages"
-								>
-									<option>Any</option>
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-									<option>04</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="bathrooms">Bathrooms</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="bathrooms"
-								>
-									<option>Any</option>
-									<option>01</option>
-									<option>02</option>
-									<option>03</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-6 mb-2">
-							<div class="form-group mt-3">
-								<label class="pb-2" for="price">Min Price</label>
-								<select
-									class="form-control form-select form-control-a"
-									id="price"
-								>
-									<option>Unlimite</option>
-									<option>$50,000</option>
-									<option>$100,000</option>
-									<option>$150,000</option>
-									<option>$200,000</option>
-								</select>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<button type="submit" class="btn btn-b">Search Property</button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<!-- End Property Search Section -->>
-
 		<!-- ======= Header/Navbar ======= -->
 		<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
 			<div class="container">
@@ -193,10 +76,6 @@
 							<a class="nav-link" href="about.html">About</a>
 						</li>
 
-						<li class="nav-item">
-							<a class="nav-link" href="all-fleets.html">Fleets</a>
-						</li>
-
 						<li class="nav-item dropdown">
 							<a
 								class="nav-link dropdown-toggle active"
@@ -209,9 +88,9 @@
 								>Categories</a
 							>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="../../drones.html">Drones</a>
-								<a class="dropdown-item" href="../../all-fleets.html">Fleets</a>
-								<a class="dropdown-item" href="../../hangars.html">Hangars</a>
+								<a class="dropdown-item" href="drones.html">Drones</a>
+								<a class="dropdown-item" href="all-fleets.html">Fleet</a>
+								<a class="dropdown-item" href="hangars.html">Hangars</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -219,15 +98,6 @@
 						</li>
 					</ul>
 				</div>
-
-				<button
-					type="button"
-					class="btn btn-b-n navbar-toggle-box navbar-toggle-box-collapse"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarTogglerDemo01"
-				>
-					<i class="bi bi-search"></i>
-				</button>
 			</div>
 		</nav>
 		<!-- End Header/Navbar -->
@@ -266,24 +136,12 @@
 			<section class="property-grid grid">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12">
-							<div class="grid-option">
-								<form>
-									<select class="custom-select">
-										<option selected>All</option>
-										<option value="1">New to Old</option>
-										<option value="2">For Rent</option>
-										<option value="3">For Sale</option>
-									</select>
-								</form>
-							</div>
-						</div>
 						<!-- Item 1 -->
 						<div class="col-md-4">
 							<div class="card-box-a card-shadow">
 								<div class="img-box-a">
 									<img
-										src="https://ppd.pelita-air.com/uploads/drones/dji-mavic-2-pro-pkZFUGcp9C.png"
+										src="assets/img/drones/drone-1.jpg"
 										alt=""
 										class="img-a img-fluid"
 									/>
@@ -292,15 +150,14 @@
 									<div class="card-overlay-a-content">
 										<div class="card-header-a">
 											<h2 class="card-title-a">
-												<a href="#">DJI Mavic 2 Pro</a>
+												<a href="pages/drones/drone-1.html">DJI Mini 2</a>
 											</h2>
 										</div>
 										<div class="card-body-a">
 											<a
+												href="pages/drones/drone-1.html"
 												type="button"
 												class="link-a"
-												data-bs-toggle="modal"
-												data-bs-target="#mavicModal"
 												>Click here to view details
 												<span class="bi bi-chevron-right"></span>
 											</a>
@@ -329,88 +186,6 @@
 								</div>
 							</div>
 						</div>
-						<div
-							class="modal fade"
-							id="mavicModal"
-							tabindex="-1"
-							aria-labelledby="exampleModalLabel"
-							aria-hidden="true"
-						>
-							<div class="modal-dialog modal-xl">
-								<div class="modal-content">
-									<button
-										type="button"
-										class="btn-close ms-auto my-2 mx-2"
-										data-bs-dismiss="modal"
-										aria-label="Close"
-									></button>
-									<!-- <div class="modal-header"></div> -->
-									<div class="container-fluid">
-										<div class="modal-body">
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<img
-														src="https://ppd.pelita-air.com/uploads/drones/dji-mavic-2-pro-pkZFUGcp9C.png"
-														alt=""
-														class="img-a img-fluid w-75 mx-auto d-block"
-													/>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<div class="content">
-														<h2 class="card-title-a text-center mt-2">
-															<span class="color-b">DJI Mavic 2 Pro</span>
-														</h2>
-
-														<p class="text-center">
-															A small, fast, compact five bladed, single engine,
-															turbine powered helicopter especially suitable for
-															exploration and survey support including external
-															load confined area operations. The 500ER model is
-															fitted with a more powerful engine for high
-															altitude operations.
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<table class="table table-borderless">
-														<tbody>
-															<tr>
-																<td>Role</td>
-																<td>: Mapping, 3D Modelling & Documentation</td>
-															</tr>
-															<tr>
-																<td>Flight Time</td>
-																<td>: 25 minutes</td>
-															</tr>
-															<tr>
-																<td>Cruising Speed</td>
-																<td>: 15 m/s</td>
-															</tr>
-															<tr>
-																<td>Telemetry Range</td>
-																<td>: 5 km</td>
-															</tr>
-															<tr>
-																<td>Camera Resolution</td>
-																<td>: RGB 20 MP</td>
-															</tr>
-															<tr>
-																<td>Weight</td>
-																<td>: 0.9 kg</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- End Item 1 -->
 
 						<!-- Item 2 -->
@@ -418,7 +193,7 @@
 							<div class="card-box-a card-shadow">
 								<div class="img-box-a">
 									<img
-										src="https://ppd.pelita-air.com/uploads/drones/dji-phantom-4-pro-qscwhhAiif.png"
+										src="assets/img/drones/drone-2.jpg"
 										alt=""
 										class="img-a img-fluid"
 									/>
@@ -427,15 +202,14 @@
 									<div class="card-overlay-a-content">
 										<div class="card-header-a">
 											<h2 class="card-title-a">
-												<a href="#">DJI Phantom 4 Pro</a>
+												<a href="pages/drones/drone-2.html">KF102 Max</a>
 											</h2>
 										</div>
 										<div class="card-body-a">
 											<a
+												href="pages/drones/drone-2.html"
 												type="button"
 												class="link-a"
-												data-bs-toggle="modal"
-												data-bs-target="#phantomModal"
 												>Click here to view details
 												<span class="bi bi-chevron-right"></span>
 											</a>
@@ -464,88 +238,6 @@
 								</div>
 							</div>
 						</div>
-						<div
-							class="modal fade"
-							id="phantomModal"
-							tabindex="-1"
-							aria-labelledby="exampleModalLabel"
-							aria-hidden="true"
-						>
-							<div class="modal-dialog modal-xl">
-								<div class="modal-content">
-									<button
-										type="button"
-										class="btn-close ms-auto my-2 mx-2"
-										data-bs-dismiss="modal"
-										aria-label="Close"
-									></button>
-									<!-- <div class="modal-header"></div> -->
-									<div class="container-fluid">
-										<div class="modal-body">
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<img
-														src="https://ppd.pelita-air.com/uploads/drones/dji-phantom-4-pro-qscwhhAiif.png"
-														alt=""
-														class="img-a img-fluid w-75 mx-auto d-block"
-													/>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<div class="content">
-														<h2 class="card-title-a text-center mt-2">
-															<span class="color-b">DJI Phantom 4 Pro</span>
-														</h2>
-
-														<p class="text-center">
-															A small, fast, compact five bladed, single engine,
-															turbine powered helicopter especially suitable for
-															exploration and survey support including external
-															load confined area operations. The 500ER model is
-															fitted with a more powerful engine for high
-															altitude operations.
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<table class="table table-borderless">
-														<tbody>
-															<tr>
-																<td>Role</td>
-																<td>: Mapping, 3D Modelling & Documentation</td>
-															</tr>
-															<tr>
-																<td>Flight Time</td>
-																<td>: 25 minutes</td>
-															</tr>
-															<tr>
-																<td>Cruising Speed</td>
-																<td>: 15 m/s</td>
-															</tr>
-															<tr>
-																<td>Telemetry Range</td>
-																<td>: 5 km</td>
-															</tr>
-															<tr>
-																<td>Camera Resolution</td>
-																<td>: RGB 20 MP</td>
-															</tr>
-															<tr>
-																<td>Weight</td>
-																<td>: 0.9 kg</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- End Item 2 -->
 
 						<!-- Item 3 -->
@@ -553,7 +245,7 @@
 							<div class="card-box-a card-shadow">
 								<div class="img-box-a">
 									<img
-										src="https://ppd.pelita-air.com/uploads/drones/fixed-wing-v-tol-aN66XDet1z.jpg"
+										src="assets/img/drones/drone-3.jpg"
 										alt=""
 										class="img-a img-fluid"
 									/>
@@ -562,15 +254,14 @@
 									<div class="card-overlay-a-content">
 										<div class="card-header-a">
 											<h2 class="card-title-a">
-												<a href="#">Fixed-Wing V-TOL</a>
+												<a href="pages/drones/drone-3.html">DJI Phantom 4</a>
 											</h2>
 										</div>
 										<div class="card-body-a">
 											<a
 												type="button"
 												class="link-a"
-												data-bs-toggle="modal"
-												data-bs-target="#fwingModal"
+												href="pages/drones/drone-3.html"
 												>Click here to view details
 												<span class="bi bi-chevron-right"></span>
 											</a>
@@ -599,91 +290,9 @@
 								</div>
 							</div>
 						</div>
-						<div
-							class="modal fade"
-							id="fwingModal"
-							tabindex="-1"
-							aria-labelledby="exampleModalLabel"
-							aria-hidden="true"
-						>
-							<div class="modal-dialog modal-xl">
-								<div class="modal-content">
-									<button
-										type="button"
-										class="btn-close ms-auto my-2 mx-2"
-										data-bs-dismiss="modal"
-										aria-label="Close"
-									></button>
-									<!-- <div class="modal-header"></div> -->
-									<div class="container-fluid">
-										<div class="modal-body">
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<img
-														src="https://ppd.pelita-air.com/uploads/drones/fixed-wing-v-tol-aN66XDet1z.jpg"
-														alt=""
-														class="img-a img-fluid w-75 mx-auto d-block"
-													/>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<div class="content">
-														<h2 class="card-title-a text-center mt-2">
-															<span class="color-b">Fixed-Wing V-TOL</span>
-														</h2>
-
-														<p class="text-center">
-															A small, fast, compact five bladed, single engine,
-															turbine powered helicopter especially suitable for
-															exploration and survey support including external
-															load confined area operations. The 500ER model is
-															fitted with a more powerful engine for high
-															altitude operations.
-														</p>
-													</div>
-												</div>
-											</div>
-											<div class="row justify-content-center">
-												<div class="col-md-6">
-													<table class="table table-borderless">
-														<tbody>
-															<tr>
-																<td>Role</td>
-																<td>: Mapping, 3D Modelling & Documentation</td>
-															</tr>
-															<tr>
-																<td>Flight Time</td>
-																<td>: 25 minutes</td>
-															</tr>
-															<tr>
-																<td>Cruising Speed</td>
-																<td>: 15 m/s</td>
-															</tr>
-															<tr>
-																<td>Telemetry Range</td>
-																<td>: 5 km</td>
-															</tr>
-															<tr>
-																<td>Camera Resolution</td>
-																<td>: RGB 20 MP</td>
-															</tr>
-															<tr>
-																<td>Weight</td>
-																<td>: 0.9 kg</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 						<!-- End Item 3 -->
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-sm-12">
 							<nav class="pagination-a">
 								<ul class="pagination justify-content-end">
@@ -709,7 +318,7 @@
 								</ul>
 							</nav>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 			<!-- End Property Grid Single-->
@@ -720,10 +329,10 @@
 		<section class="section-footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 col-md-4">
+					<div class="col-sm-12 col-md-6">
 						<div class="widget-a">
 							<div class="w-header-a">
-								<h3 class="w-title-a text-brand">EstateAgency</h3>
+								<h3 class="w-title-a text-brand">IntanAngkasa</h3>
 							</div>
 							<div class="w-body-a">
 								<p class="w-text-a color-text-a">
@@ -733,84 +342,39 @@
 							<div class="w-footer-a">
 								<ul class="list-unstyled">
 									<li class="color-a">
-										<span class="color-text-a">Phone .</span>
+										<span class="color-text-a">Phone :</span>
 										(021) 883 20351
 									</li>
 									<li class="color-a">
-										<span class="color-text-a">Email .</span>
+										<span class="color-text-a">Email :</span>
 										inquiries@intanair.com
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-12 col-md-4 section-md-t3">
+					<div class="col-sm-12 col-md-6 section-md-t3">
 						<div class="widget-a">
 							<div class="w-header-a">
-								<h3 class="w-title-a text-brand">The Company</h3>
+								<h3 class="w-title-a text-brand">Links</h3>
 							</div>
 							<div class="w-body-a">
 								<div class="w-body-a">
 									<ul class="list-unstyled">
 										<li class="item-list-a">
 											<i class="bi bi-chevron-right"></i>
-											<a href="#">Site Map</a>
-										</li>
-										<li class="item-list-a">
-											<i class="bi bi-chevron-right"></i> <a href="#">Legal</a>
+											<a href="drones.html">Drones</a>
 										</li>
 										<li class="item-list-a">
 											<i class="bi bi-chevron-right"></i>
-											<a href="#">Agent Admin</a>
+											<a href="all-fleets.html">Fleet</a>
 										</li>
 										<li class="item-list-a">
 											<i class="bi bi-chevron-right"></i>
-											<a href="#">Careers</a>
-										</li>
-										<li class="item-list-a">
-											<i class="bi bi-chevron-right"></i>
-											<a href="#">Affiliate</a>
-										</li>
-										<li class="item-list-a">
-											<i class="bi bi-chevron-right"></i>
-											<a href="#">Privacy Policy</a>
+											<a href="hangars.html">Hangars</a>
 										</li>
 									</ul>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-4 section-md-t3">
-						<div class="widget-a">
-							<div class="w-header-a">
-								<h3 class="w-title-a text-brand">International sites</h3>
-							</div>
-							<div class="w-body-a">
-								<ul class="list-unstyled">
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i>
-										<a href="#">Venezuela</a>
-									</li>
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i> <a href="#">China</a>
-									</li>
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i>
-										<a href="#">Hong Kong</a>
-									</li>
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i>
-										<a href="#">Argentina</a>
-									</li>
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i>
-										<a href="#">Singapore</a>
-									</li>
-									<li class="item-list-a">
-										<i class="bi bi-chevron-right"></i>
-										<a href="#">Philippines</a>
-									</li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -828,12 +392,6 @@
 								</li>
 								<li class="list-inline-item">
 									<a href="#">About</a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#">Property</a>
-								</li>
-								<li class="list-inline-item">
-									<a href="#">Blog</a>
 								</li>
 								<li class="list-inline-item">
 									<a href="#">Contact</a>
