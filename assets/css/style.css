@@ -134,6 +134,7 @@ a:hover {
 .color-text-a {
 	text-decoration: none;
 	color: #555555;
+	text-align: justify;
 }
 
 .no-margin {
@@ -1909,6 +1910,16 @@ a:hover {
 	}
 }
 
+@media (max-width: 768px) {
+	.about-img {
+		display: none;
+	}
+
+	.since-box {
+		display: none;
+	}
+}
+
 .since-box {
 	background-color: #e20707;
 	padding: 1rem 2rem;
@@ -1989,6 +2000,16 @@ a:hover {
 	.since-box p {
 		font-size: 1rem;
 	}
+}
+
+.title-wrap-custom {
+	padding-bottom: 1.5rem;
+}
+
+.team-section .list-unstyled li {
+	margin-bottom: 1rem;
+	color: #e20707;
+	font-size: 1.3rem;
 }
 
 /*--------------------------------------------------------------
