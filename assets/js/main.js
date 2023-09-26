@@ -118,6 +118,38 @@
 	});
 
 	/**
+	 * Clients Carousel
+	 */
+	new Swiper("#clients-carousel", {
+		speed: 600,
+		loop: false,
+		autoplay: {
+			delay: 5000,
+			disableOnInteraction: false,
+		},
+		slidesPerView: "auto",
+		pagination: {
+			el: ".clients-carousel-pagination",
+			type: "bullets",
+			clickable: true,
+		},
+		breakpoints: {
+			320: {
+				slidesPerView: 4,
+				spaceBetween: 20,
+			},
+			768: {
+				slidesPerView: 5,
+				spaceBetween: 20,
+			},
+			1200: {
+				slidesPerView: 6,
+				spaceBetween: 20,
+			},
+		},
+	});
+
+	/**
 	 * Property carousel
 	 */
 	new Swiper("#property-carousel", {
