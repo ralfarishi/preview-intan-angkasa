@@ -112,6 +112,12 @@ a:hover {
 	font-weight: 600;
 }
 
+.text-brand img {
+	width: 45px;
+	height: 25px;
+	margin-bottom: 5px;
+}
+
 @media (max-width: 767px) {
 	.text-brand {
 		font-size: 1.8rem;
