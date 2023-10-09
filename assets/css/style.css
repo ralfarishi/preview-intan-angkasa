@@ -50,7 +50,7 @@ a:hover {
 }
 
 .link-one:hover {
-	color: #000000;
+	color: #e20707;
 	text-decoration: none;
 }
 
@@ -1781,8 +1781,8 @@ a:hover {
 
 /* Clients */
 .section-clients .swiper-slide img {
-	width: 50px;
-	height: 50px;
+	width: 85px;
+	height: 85px;
 	object-fit: contain;
 }
 
