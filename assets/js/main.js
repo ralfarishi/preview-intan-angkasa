@@ -160,17 +160,12 @@
 	 */
 	new Swiper("#clients-carousel", {
 		speed: 600,
-		loop: false,
+		loop: true,
 		autoplay: {
-			delay: 5000,
+			delay: 1500,
 			disableOnInteraction: false,
 		},
 		slidesPerView: "auto",
-		pagination: {
-			el: ".clients-carousel-pagination",
-			type: "bullets",
-			clickable: true,
-		},
 		breakpoints: {
 			320: {
 				slidesPerView: 4,
@@ -248,15 +243,15 @@
 	/**
 	 * Property Single carousel
 	 */
-	new Swiper("#property-single-carousel", {
+	new Swiper("#item-single-carousel", {
 		speed: 600,
-		loop: true,
+		loop: false,
 		autoplay: {
-			delay: 5000,
+			delay: 6500,
 			disableOnInteraction: false,
 		},
 		pagination: {
-			el: ".property-single-carousel-pagination",
+			el: ".item-single-carousel-pagination",
 			type: "bullets",
 			clickable: true,
 		},
