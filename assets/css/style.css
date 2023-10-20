@@ -1788,8 +1788,8 @@ a:hover {
 
 /* Clients */
 .section-clients .swiper-slide img {
-	width: 85px;
-	height: 85px;
+	width: 50%;
+	aspect-ratio: 3/2;
 	object-fit: contain;
 }
 
