@@ -1717,6 +1717,13 @@ a:hover {
 	font-size: 1.2rem;
 }
 
+@media (max-width: 576px) {
+	.section-services .row div.card-center {
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+	}
+}
+
 /* .list-group-item {
 	display: flex;
 	align-items: center;
@@ -1781,8 +1788,8 @@ a:hover {
 
 /* Clients */
 .section-clients .swiper-slide img {
-	width: 85px;
-	height: 85px;
+	width: 50%;
+	aspect-ratio: 3/2;
 	object-fit: contain;
 }
 

@@ -137,6 +137,37 @@
 		});
 	});
 
+	// fetch clients data from clients.json file
+	document.addEventListener("DOMContentLoaded", function () {
+		const clients = "assets/clients.json";
+		var xhr = new XMLHttpRequest();
+
+		xhr.open("GET", clients, true);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState === 4 && xhr.status === 200) {
+				var data = JSON.parse(xhr.responseText);
+				var clientList = data.data;
+
+				clientList.forEach(function (client) {
+					var imgSrc = "assets/img/clients/" + client.img;
+					var clientName = client.name;
+
+					var clientItem = document.createElement("div");
+					clientItem.className = "swiper-slide";
+					clientItem.innerHTML =
+						'<img src="' +
+						imgSrc +
+						'" class="img-fluid" alt="' +
+						clientName +
+						'">';
+
+					document.getElementById("clients-list").appendChild(clientItem);
+				});
+			}
+		};
+		xhr.send();
+	});
+
 	/**
 	 * Intro Carousel
 	 */

@@ -1,0 +1,100 @@
+{
+	"data": [
+		{
+			"name": "PT. Freeport",
+			"img": "freeport.png"
+		},
+		{
+			"name": "Antam",
+			"img": "antam.png"
+		},
+		{
+			"name": "Sinar Mas",
+			"img": "sinar-mas.png"
+		},
+		{
+			"name": "Agincourt Resource",
+			"img": "agincourt-resource.png"
+		},
+		{
+			"name": "Amman Mines",
+			"img": "amman-mines.jpeg"
+		},
+		{
+			"name": "Bumi Suksesindo",
+			"img": "bumi-suksesindo.png"
+		},
+		{
+			"name": "Chevron",
+			"img": "chevron.png"
+		},
+		{
+			"name": "Dairi Prima Mineral",
+			"img": "dairi-prima-mineral.png"
+		},
+		{
+			"name": "Eramet",
+			"img": "eramet.png"
+		},
+		{
+			"name": "Infrastruktur Bisnis Sejahtera",
+			"img": "infrastruktur-bisnis-sejahtera.png"
+		},
+		{
+			"name": "J Resources",
+			"img": "j-resources.png"
+		},
+		{
+			"name": "Japex",
+			"img": "japex.png"
+		},
+		{
+			"name": "Kayan Putra Utama Coal",
+			"img": "kayan-putra-utama-coal.webp"
+		},
+		{
+			"name": "Kembu Mandiri",
+			"img": "kembu-mandiri.png"
+		},
+		{
+			"name": "Mcelhanney",
+			"img": "mcelhanney.png"
+		},
+		{
+			"name": "Newcrest",
+			"img": "newcrest.png"
+		},
+		{
+			"name": "Palapa Timur Telematika",
+			"img": "palapa-timur-telematika.png"
+		},
+		{
+			"name": "Pelsart Tambang Kencana",
+			"img": "pelsart-tambang-kencana.jpeg"
+		},
+		{
+			"name": "Pusat Survey Geologi Bandung",
+			"img": "pusat-survey-geologi-bandung.jpeg"
+		},
+		{
+			"name": "Sorikmas",
+			"img": "sorikmas.png"
+		},
+		{
+			"name": "Southern Arc",
+			"img": "southern-arc.jpeg"
+		},
+		{
+			"name": "Sugar Group",
+			"img": "sugar-grup.png"
+		},
+		{
+			"name": "Unitras Energy",
+			"img": "unitras-energy.jpg"
+		},
+		{
+			"name": "West Wits",
+			"img": "west-wits.png"
+		}
+	]
+}
