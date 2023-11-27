@@ -1793,6 +1793,13 @@ a:hover {
 	object-fit: contain;
 }
 
+/* Drone */
+.property-summary .drone-gallery img {
+	width: 100%;
+	aspect-ratio: 3/2;
+	margin-bottom: 1rem;
+}
+
 /*======================================
 //--//-->   AGENTS - CARD-D
 ======================================*/
