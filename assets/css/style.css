@@ -113,8 +113,8 @@ a:hover {
 }
 
 .text-brand img {
-	width: 45px;
-	height: 25px;
+	width: 120px;
+	height: auto;
 	margin-bottom: 5px;
 }
 
@@ -620,8 +620,8 @@ a:hover {
 .navbar-default {
 	transition: all 0.5s ease-in-out;
 	background-color: #ffffff;
-	padding-top: 28px;
-	padding-bottom: 28px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	box-shadow: 1px 2px 15px rgba(100, 100, 100, 0.3);
@@ -759,8 +759,8 @@ a:hover {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	visibility: hidden;
-	transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s,
-		opacity 0.31s ease 0s, height 0s linear 0.36s;
+	transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s,
+		height 0s linear 0.36s;
 	margin: 0;
 	border-radius: 0;
 	padding: 12px 0;
