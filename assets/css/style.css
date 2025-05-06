@@ -113,14 +113,26 @@ a:hover {
 }
 
 .text-brand img {
-	width: 120px;
-	height: auto;
+	width: auto;
+	height: 75px;
 	margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
 	.text-brand {
 		font-size: 1.8rem;
+	}
+}
+
+@media (max-width: 425px) {
+	.text-brand img {
+		height: 55px;
+	}
+}
+
+@media (max-width: 337px) {
+	.text-brand img {
+		height: 45px;
 	}
 }
 
@@ -723,8 +735,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
 	transition: all 0.5s ease-in-out;
-	padding-top: 19px;
-	padding-bottom: 19px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
